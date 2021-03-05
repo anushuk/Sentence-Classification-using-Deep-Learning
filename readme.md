@@ -10,21 +10,19 @@ For now, two baseline models are using TF-IDF and  word2vec embeddings, and one 
 Let's look into the given files in more detail.
 
 <h3>Setup</h3>
-1. Right after cloning the repository create the environment by `python -m venv env`</br>
-2. Then activate the source: </br>
-        On macOS and Linux:
-        `source env/bin/activate`</br>
-         On Windows:
-        `.\env\Scripts\activate`</br>
-     
-3. To install dependencies run `pip install -r requirements.txt` </br>
+
+Right after cloning the repository create the environment by `python -m venv env`</br></br> 
+Then activate the source by running:</br></br> 
+On macOS and Linux: `source env/bin/activate`  or  </br> 
+On Windows: `.\env\Scripts\activate` </br></br> 
+To install dependencies run `pip install -r requirements.txt` 
 
 
 <h3>Data</h3>
 There are two data files:
 
-1. <b>training.py</b> > used as training data
-2. <b>testing.py</b>  > used as testing data
+1. <b>training.xlsx</b> > used as training data
+2. <b>testing.xlsx</b>  > used as testing data
 
 <h3>Text Pre-processingr</h3>
 <img src="images/text_steps.png" width="400" height="200">
@@ -76,8 +74,9 @@ For this model, respective files are as follow:
 To run it `python elmo_train.py`</br>
 
 2.<b>elmo_test.py:</b> It will preprocess the text, it will take the embeddings from the loaded Elmo model, load the trained model, perform predictions, and will create the result output file(testing_result_elmo.csv).</br>
-To run it `python elmo_test.py`
+To run it `python elmo_test.py` </br>
 
+<b> We saw ELMO performes better than the other two models(TF-IDF vectorization and Word2vec).</b> </br>
 
 <b> Next we will try use BERT model for sentence classification.</b> </br></br>
 <img src="images/bert.png" width="400" height="300"></br></br>
