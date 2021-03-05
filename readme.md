@@ -80,7 +80,7 @@ To run it `python elmo_test.py` </br>
 
 <b> Next we will try use BERT model for sentence classification.</b> </br></br>
 <img src="images/bert.png" width="400" height="300"></br></br>
-Read more about <b>BERT</b> [here](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)  </br>
+Read more about <b>BERT</b> [here](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)  </br></br></br>
 
 
 
