@@ -4,20 +4,24 @@
 ![dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-green.svg)
 ![obsesve](https://img.shields.io/badge/observatory-A%2B-yellow.svg)
 
-## Introduction
+<h3>Introduction</h3>
 Three models are built to classify sentence vectors with mulitple classes using various Deep Learning Techniques.
 For now there are two baseline models using TF-IDF and  word2vec embeddings, and one proposed model, which is build using ELMO(Embeddings from Language Models).
 Let's look into given files into more details.
 
 
-### Data
+<h3>Data</h3>
 There are two data files:
 
 1. <b>training.py</b> > used as training data
 2. <b>testing.py</b>  > used as testing data
 
-### TF-IDF Vectorizer
+<h3>TF-IDF Vectorizer</h3>
+
 <img src="images/tfidf.png" width="400" height="300">
+
+Read more about <b>TF-IDF</b> [here](https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a)  </br>
+
 For this model, respective files are as follow:
 
 1.<b>tfidf_train.py:</b> It will get TF-IDF vector and train the neural network and will save the model in the current directory
