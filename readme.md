@@ -16,6 +16,9 @@ There are two data files:
 1. <b>training.py</b> > used as training data
 2. <b>testing.py</b>  > used as testing data
 
+<h3>Text Pre-processingr</h3>
+
+
 <h3>TF-IDF Vectorizer</h3>
 
 <img src="images/tfidf.png" width="400" height="300">
@@ -24,8 +27,8 @@ Read more about <b>TF-IDF</b> [here](https://medium.com/@cmukesh8688/tf-idf-vect
 
 For this model, respective files are as follow:
 
-1.<b>tfidf_train.py:</b> It will get TF-IDF vector and train the neural network and will save the model in the current directory
-A deep dive into the technical parts
+1.<b>tfidf_train.py:</b> It will get TF-IDF vector, train the neural network, and will save the model in the current directory.
+1.<b>tfidf_train.py:</b> It will get TF-IDF vector, train the neural network, and will save the model in the current directory.
 
 There is one data preprocessing file ("textprep.py")
 
