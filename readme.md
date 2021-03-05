@@ -17,9 +17,14 @@ There are two data files:
 2. <b>testing.py</b>  > used as testing data
 
 <h3>Text Pre-processingr</h3>
+<img src="images/text_steps.png" width="400" height="200">
 
+Read more about <b>Text Pre-processing</b> [here](https://towardsdatascience.com/text-preprocessing-in-natural-language-processing-using-python-6113ff5decd8#:~:text=In%20NLP%2C%20text%20preprocessing%20is,Stop%20words%20removal)  </br>
 
-<h3>TF-IDF Vectorizer</h3>
+In this repository you will find <b>textprep.py</b>, which contains all the text pre-processing steps and is imported by all other python files here. </br>
+This python script also contains all the necessary NLTK packages and will downloaded automatically. 
+
+<h3>Baseline TF-IDF Vectorizer Model </h3>
 
 <img src="images/tfidf.png" width="400" height="300">
 
@@ -27,30 +32,29 @@ Read more about <b>TF-IDF</b> [here](https://medium.com/@cmukesh8688/tf-idf-vect
 
 For this model, respective files are as follow:
 
-1.<b>tfidf_train.py:</b> It will get TF-IDF vector, train the neural network, and will save the model in the current directory.
-1.<b>tfidf_train.py:</b> It will get TF-IDF vector, train the neural network, and will save the model in the current directory.
+1.<b>tfidf_train.py:</b> It will preprocess the text, it will get TF-IDF vector, create and save labels for dependent variable, train the neural network, and will save the model in the current directory.</br>
+To run it `python tfidf_train.py`
 
-There is one data preprocessing file ("textprep.py")
+2.<b>tfidf_test.py:</b> It will preprocess the text, it will load the saved vector, load the trained model, performe predictions, and will create the result output(testing_result_testidf.csv).</br>
+To run it `python tfidf_test.py`
 
-We have two baseline models within folders " Baseline_tfidf" and "Basline_word2vec"
+<h3>Baseline Word2Vec Model </h3>
 
-1) In folder "Baseline_tfidf"  you will find 'tfidf_train.py' and 'tfidf_test.py' for training and testing the model respectively and command to train is
- "python tfidf_train.py"
-and to test already trained saved model run
-" python tfidf_test.py"
-You will also find output file here named "testing_output_testidf.csv"
+<img src="images/word2vec.jpeg" width="400" height="300">
 
-2) In folder "Basline_word2vec"  you will find  'word2vec_train.py' and 'word2vec_test.py' for training and testing the model respectively and command to train is
- "python word2vec_train.py"
-and to test already trained saved model run
-" python word2vec_test.py"
-You will also find output file here named "testing_output_word2vec.csv"
+Read more about <b>Word2Vec</b> [here](https://towardsdatascience.com/introduction-to-word-embedding-and-word2vec-652d0c2060fa)  </br>
 
-3) In folder "Propesed_elmo"  you will find  'elmo_train.py' and 'elmo_test.py' for training and testing the model respectively and command to train is
- "python elmo_train.py"
-and to test already trained saved model run
-" python elmo_test.py"
-You will also find output file here named "testing_output_elmo.csv"
+For this model, respective files are as follow:
+
+1.<b>word2vec_train.py:</b> It will preprocess the text, it will get  sentence vector by averageing out word vectors and save it as embeddings, create and save labels for dependent variable, train the neural network, and will save the model in the current directory.</br>
+To run it `python tfidf_train.py`</br></br>
+<b> Note :</b> Before running train file you to download `glove.6B.50d.txt` file. Download from [here](https://nlp.stanford.edu/projects/glove/)
+
+2.<b>word2vec_test.py:</b> It will preprocess the text, it will load the embeddings, load the trained model, performe predictions, and will create the result output(testing_result_word2vec.csv).</br>
+To run it `python word2vec_test.py`
+
+
+
 
 
 
