@@ -5,6 +5,9 @@
 ![obsesve](https://img.shields.io/badge/observatory-A%2B-lightgrey.svg)
 
 ## Introduction
+Three models are built to classify sentence vectors with mulitple classes using various Deep Learning Techniques.
+For now there are two baseline models using TF-IDF and  word2vec embeddings and one proposed model, which is build using ELMO(Embeddings from Language Models).
+
 
 
 Folder "Data" contains training and testing files
