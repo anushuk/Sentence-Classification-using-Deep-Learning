@@ -17,7 +17,7 @@ There are two data files:
 2. <b>testing.py</b>  > used as testing data
 
 ### TF-IDF Vectorizer
-![tfidf](images/tfidf.png){:height="200px" width="500px"}
+<img src="images/tfidf.png" width="400" height="300">
 For this model, respective files are as follow:
 
 1.<b>tfidf_train.py:</b> It will get TF-IDF vector and train the neural network and will save the model in the current directory
