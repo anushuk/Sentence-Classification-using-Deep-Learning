@@ -9,6 +9,16 @@ Three models are built to classify sentence vectors with multiple classes using 
 For now, two baseline models are using TF-IDF and  word2vec embeddings, and one proposed model, which is build using ELMO(Embeddings from Language Models).
 Let's look into the given files in more detail.
 
+<h3>Setup</h3>
+1. Right after cloning the repository create the environment by `python -m venv env`</br>
+2. Then activate the source: </br>
+        On macOS and Linux:
+        `source env/bin/activate`</br>
+         On Windows:
+        `.\env\Scripts\activate`</br>
+     
+3. To install dependencies run `pip install -r requirements.txt` </br>
+
 
 <h3>Data</h3>
 There are two data files:
@@ -69,8 +79,8 @@ To run it `python elmo_train.py`</br>
 To run it `python elmo_test.py`
 
 
-<b> Next we will try use BERT model for sentence classification.</b>
-<img src="images/bert.png" width="400" height="300">
+<b> Next we will try use BERT model for sentence classification.</b> </br></br>
+<img src="images/bert.png" width="400" height="300"></br></br>
 Read more about <b>BERT</b> [here](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)  </br>
 
 
