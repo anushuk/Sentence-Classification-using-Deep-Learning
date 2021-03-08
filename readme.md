@@ -6,7 +6,7 @@
 
 <h3>Introduction</h3>
 Three models are built to classify sentence vectors with multiple classes using various Deep Learning Techniques.
-For now, two baseline models are using TF-IDF and  word2vec embeddings, and one proposed model, which is build using ELMO(Embeddings from Language Models).
+For now, two baseline models are using TF-IDF and  word2vec embeddings, and one proposed model, which is build using ELMO (Embeddings from Language Models).
 Let's look into the given files in more detail.
 
 <h3>Setup</h3>
