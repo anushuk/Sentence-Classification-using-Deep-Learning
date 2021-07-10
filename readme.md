@@ -30,7 +30,7 @@ There are two data files:
 Read more about <b>Text Pre-processing</b> [here](https://towardsdatascience.com/text-preprocessing-in-natural-language-processing-using-python-6113ff5decd8#:~:text=In%20NLP%2C%20text%20preprocessing%20is,Stop%20words%20removal)  </br>
 
 In this repository, you will find <b>textprep.py</b>, which contains all the text pre-processing steps and is imported by all other python files here. </br>
-This python script also contains all the necessary NLTK packages and will be downloaded automatically. 
+This python script also contains all the necessary NLTK packages and will be downloaded automatically
 
 <h3>Baseline TF-IDF Vectorizer Model </h3>
 
